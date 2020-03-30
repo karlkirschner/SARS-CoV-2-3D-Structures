@@ -7,7 +7,7 @@ The accompanying manuscript: https://chemrxiv.org/ (TO-BE-DONE-SOON)
 
 Geometry optimization performed using Psi4, with a convergence criterial of gau_tight, using the following theory levels:
 1. HF/6-31G(d)
-2. B97-D3BJ/cc-pVTZ (coming soon)
+2. B97-D3BJ/cc-pVTZ
 
 Frequency analysis have not yet be ran. From previous experience, most of the conformations are likely to be minima on the potential energy surface, but this is currently an assumption. Frequency will be eventually computed, and identified transition states will be removed.
 
@@ -16,5 +16,8 @@ The energies for each conformation are given on the comment line of each conform
 Investigated Drugs:
 1. chloroquine - two isomers; 227 total HF/6-31G(d) conformations
 2. valproic acid - 170 total HF/6-31G(d) conformations
-3. silmitasertib - 30 total HF/6-31G(d) conformations
+3. silmitasertib - 26 total B97-D3BJ/cc-pVTZ; 30 total HF/6-31G(d) conformations
 4. entacapone (coming soon)
+
+Workflow:
+The general workflow is to optimize at the HF/6-31G(d) theory level, and then using the resulting conformations as input into more rigorous theory levels.
