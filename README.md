@@ -10,6 +10,6 @@ Geometry optimization performed using Psi4, with a convergence criterial of gau_
 The energies for each conformation are given on the comment line of each conformation. The conformations within each file are ranked from lowest to highest relative energy for the given theory level.
 
 Investigated Drugs:
-1. chloroquine:
-#2. valproic acid
-#3. silmitasertib
+1. chloroquine
+
+2. valproic acid
