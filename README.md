@@ -7,7 +7,7 @@ The accompanying manuscript: https://chemrxiv.org/ (TO-BE-DONE-SOON)
 
 Geometry optimization performed using Psi4, with a convergence criterial of gau_tight, using the following theory levels:
 1. HF/6-31G(d)
-2. B97-D3BJ/cc-pVTZ (coming soon)
+2. B97-D3BJ/cc-pVTZ
 
 Frequency analysis have not yet be ran. From previous experience, most of the conformations are likely to be minima on the potential energy surface, but this is currently an assumption. Frequency will be eventually computed, and identified transition states will be removed.
 
