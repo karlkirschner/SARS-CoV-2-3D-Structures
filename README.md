@@ -3,7 +3,7 @@ Three-dimensional conformations of potential active compounds for SARS-Cov-2 tre
 
 David E. Gordon et al, "A SARS-CoV-2-Human Protein-Protein Interaction Map Reveals Drug Targets and Potential Drug-Repurposing", bioRxiv, https://doi.org/10.1101/2020.03.22.002386
 
-The accompanying manuscript: https://chemrxiv.org/ (TO-BE-DONE-SOON)
+The accompanying manuscript: https://doi.org/10.26434/chemrxiv.12058959.v3
 
 Geometry optimization performed using Psi4, with a convergence criterial of gau_tight, using the following theory levels:
 1. HF/6-31G(d)
@@ -17,7 +17,8 @@ Investigated Drugs:
 1. chloroquine - two isomers; 227 total HF/6-31G(d) conformations
 2. valproic acid - 170 total B97-D3BJ/cc-pVTZ; 170 total HF/6-31G(d) conformations
 3. silmitasertib - 26 total B97-D3BJ/cc-pVTZ; 30 total HF/6-31G(d) conformations
-4. entacapone (coming soon)
+4. entacapone - 49 total B97-D3BJ/cc-pVTZ conformations
+5. hydroxychloroquine - one isomers; 265 total B97-D3BJ/cc-pVTZ conformations
 
 Workflow:
 The general workflow is to optimize at the HF/6-31G(d) theory level, and then using the resulting conformations as input into more rigorous theory levels.
