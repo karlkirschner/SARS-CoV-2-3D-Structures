@@ -9,7 +9,7 @@ Geometry optimization performed using Psi4, with a convergence criterial of gau_
 1. HF/6-31G(d)
 2. B97-D3BJ/cc-pVTZ
 
-Frequency analysis have not yet be ran. From previous experience, most of the conformations are likely to be minima on the potential energy surface, but this is currently an assumption. Frequency will be eventually computed, and identified transition states will be removed.
+Frequency analysis have be run for selected low energy conformations. From previous experience, most of the remaining conformations are likely to be minima on the potential energy surface, but this is currently an assumption. Frequency will be eventually computed, and identified transition states will be removed.
 
 The energies for each conformation are given on the comment line of each conformation. The conformations within each file are ranked from lowest to highest relative energy for the given theory level.
 
